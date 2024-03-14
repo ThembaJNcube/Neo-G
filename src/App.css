@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}*/
+
+body {
+  background: #000;
+}
+
+.navbar {
+  @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem] pt-7;
+}
+.nav-logo {
+  @apply w-[7rem] h-6 max-md:absolute max-md:top-0 max-md:left-[45%] max-md:w-32 max-md:h-8;
+}
+.nav-link {
+  @apply text-2xl font-semibold text-[#c42c2c] mx-[0.45rem] px-[0.8rem] py-[0.4rem] 
+  rounded-[0.8rem] bg-transparent hover:bg-[#a31473] hover:bg-opacity-10 transition-all duration-300 
+  max-lg:text-base max-lg:mx-1 max-lg:px-1
+  max-md:hidden;
+}
+.nav-btn {
+  @apply text-2xl font-normal text-[#bababd] bg-[#500436] my-2 py-[0.3rem] px-[0.3rem]
+   rounded-[0.7rem] w-[8rem] h-[2.7rem] bg-opacity-80
+   max-lg:w-[7.3rem] max-lg:text-lg max-lg:text-center max-lg:h-[2.5rem]
+   max-md:hidden;
 }
