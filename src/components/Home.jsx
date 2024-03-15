@@ -9,7 +9,13 @@ function Home() {
         <img src={H1} className="hover:animate-pulse"></img>
       </div>
       <div className="home-content writing">
-        <h1 className="text-2xl italic font-bold">The Dawn of NEO-AGE</h1>
+        <h1 className="text-2xl italic font-bold">
+          This is the Dawn of{" "}
+          <span className="text-3xl italic font-bold text-[#770707] animate-pulse">
+            {" "}
+            NEO-AGE
+          </span>
+        </h1>
         <p>Be part of the movement and engage in the future of training.</p>
       </div>
       <div className="home-content writing">
@@ -20,8 +26,8 @@ function Home() {
           <span className="text-xl text-[#770707]"> MOVEMENT</span>.
         </p>
       </div>
-      <div className="home-content hover:animate-bounce">
-        <img src={H2}></img>
+      <div className="home-content">
+        <img src={H2} />
       </div>
     </div>
   );
