@@ -6,26 +6,46 @@
     transform: rotate(360deg);
   }
 }*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+html {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
 
 body {
   background: #000;
 }
 
 .navbar {
-  @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem] pt-7;
+  @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem] pt-7 bg-black;
 }
 .nav-logo {
-  @apply w-[7rem] h-6 max-md:absolute max-md:top-0 max-md:left-[45%] max-md:w-32 max-md:h-8;
+  @apply w-[7rem] max-md:absolute max-md:top-0 max-md:left-[45%] max-md:w-32 max-md:h-8;
 }
 .nav-link {
   @apply text-2xl font-semibold text-[#c42c2c] mx-[0.45rem] px-[0.8rem] py-[0.4rem] 
-  rounded-[0.8rem] bg-transparent hover:bg-[#a31473] hover:bg-opacity-10 transition-all duration-300 
+  rounded-[0.8rem] bg-transparent hover:bg-[#0ee431] hover:bg-opacity-30 transition-all duration-300 
   max-lg:text-base max-lg:mx-1 max-lg:px-1
   max-md:hidden;
 }
 .nav-btn {
-  @apply text-2xl font-normal text-[#bababd] bg-[#500436] my-2 py-[0.3rem] px-[0.3rem]
-   rounded-[0.7rem] w-[8rem] h-[2.7rem] bg-opacity-80
+  @apply text-2xl font-normal text-[#bababd] bg-[#750e0e] my-2 py-[0.3rem] px-[0.3rem]
+   rounded-[0.7rem] w-[8rem] h-[2.7rem] bg-opacity-80  animate-pulse hover:animate-none
    max-lg:w-[7.3rem] max-lg:text-lg max-lg:text-center max-lg:h-[2.5rem]
    max-md:hidden;
+}
+
+.home-container {
+  @apply grid grid-cols-2 py-24 px-8 gap-3
+   max-md:block  max-md:text-center;
+}
+
+.home-content {
+  @apply border-2 rounded-[.8rem] border-[#1f7904] max-md:h-[15rem] max-md:w-[70%] max-md:ml-[20%];
+}
+.writing {
+  @apply text-white text-center pt-[20%] max-md:pt-0 border-0;
+}
+.home-content img {
+  @apply w-full rounded-[.8rem] max-md:h-full;
 }
