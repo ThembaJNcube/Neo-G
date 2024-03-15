@@ -49,3 +49,10 @@ body {
 .home-content img {
   @apply w-full rounded-[.8rem] max-md:h-full;
 }
+
+.bottom {
+  @apply text-white fixed bottom-0 bg-black  flex justify-between w-full h-8 pt-2 px-[2.3rem];
+}
+.social-links {
+  @apply flex justify-between gap-5 text-[#751a1a] text-[5rem];
+}
