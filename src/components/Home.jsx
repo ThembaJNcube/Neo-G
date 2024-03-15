@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home-container">
       <div className="home-content">
-        <img src={H1}></img>
+        <img src={H1} className="hover:animate-pulse"></img>
       </div>
       <div className="home-content writing">
         <h1 className="text-2xl italic font-bold">The Dawn of NEO-AGE</h1>
@@ -16,11 +16,11 @@ function Home() {
         <h1 className="text-3xl italic font-bold text-[#770707]">NEO-GYM !</h1>
         <p>
           is tailored to accommodate everyone and all their needs, and it is
-          here to takeover, avoid being left out and be part of this{" "}
-          <span className="text-xl text-[#770707]">MOVEMENT</span>.
+          here to takeover, avoid being left out and be part of this{"  "}
+          <span className="text-xl text-[#770707]"> MOVEMENT</span>.
         </p>
       </div>
-      <div className="home-content">
+      <div className="home-content hover:animate-bounce">
         <img src={H2}></img>
       </div>
     </div>
