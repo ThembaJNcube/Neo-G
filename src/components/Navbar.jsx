@@ -13,7 +13,7 @@ function Navbar() {
           Home
         </a>
         <a href="#" className="nav-link">
-          About
+          Gallery
         </a>
         <a href="#" className="nav-link">
           Trainers
