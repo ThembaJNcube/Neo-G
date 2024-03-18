@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="section-container">
       <div className="home-content">
-        <img src={H1} alt="dumbell Image" className="hover:animate-pulse"></img>
+        <img src={H1} alt="dumbell" className="hover:animate-pulse"></img>
       </div>
       <div className="home-content writing">
         <h1 className="text-2xl italic font-bold">
@@ -25,7 +25,7 @@ function Home() {
         </p>
       </div>
       <div className="home-content">
-        <img src={H3} alt="dumbell Image" className="hover:animate-pulse"></img>
+        <img src={H3} alt="dumbell" className="hover:animate-pulse"></img>
       </div>
       <div className="home-content writing">
         <h1 className="text-3xl italic font-bold text-[#770707]">NEO-GYM !</h1>
@@ -40,7 +40,7 @@ function Home() {
         </p>
       </div>
       <div className="home-content">
-        <img src={H2} alt="gym Image" />
+        <img src={H2} alt="gym" />
       </div>
       <div className="next">
         <button className="btn">read more ...</button>
