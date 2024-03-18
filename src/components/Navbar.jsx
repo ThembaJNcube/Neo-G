@@ -4,27 +4,25 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-logo">
-<img src={logo} alt="gym logo" />;
-
-        
+        <img src={logo} alt="gym logo" />;
       </div>
       <div className="sections-routes">
-        <a href="#" className="nav-link">
+        <a href="/" className="nav-link">
           Home
         </a>
-        <a href="#" className="nav-link">
+        <a href="/" className="nav-link">
           Gallery
         </a>
-        <a href="#" className="nav-link">
+        <a href="/" className="nav-link">
           Trainers
         </a>
-        <a href="#" className="nav-link">
+        <a href="/" className="nav-link">
           Classes
         </a>
-        <a href="#" className="nav-link">
+        <a href="/" className="nav-link">
           Prices
         </a>
-        <a href="#" className="nav-link">
+        <a href="/" className="nav-link">
           Quote
         </a>
       </div>
