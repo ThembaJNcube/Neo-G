@@ -35,24 +35,30 @@ body {
    max-md:hidden;
 }
 
-.home-container {
-  @apply grid grid-cols-2 py-24 px-8 gap-3
-   max-md:block  max-md:text-center;
+.section-container {
+  @apply h-auto pt-[5.4rem] pb-[3rem] grid grid-cols-3 px-8 gap-3
+   max-md:block  max-md:text-center max-xl:grid-cols-2;
 }
 
 .home-content {
-  @apply border-2 rounded-[.8rem] border-[#1f7904] max-md:h-[15rem] max-md:w-[70%] max-md:ml-[20%];
+  @apply border-2 w-[30rem] mb-4 rounded-[.8rem] border-[#1f7904]
+   max-md:h-[15rem] max-md:w-[70%] max-md:ml-[20%] max-xl:w-full
+   max-2xl:w-[23rem];
 }
 .writing {
-  @apply text-white text-center pt-[20%] max-md:pt-0 border-0;
+  @apply text-white text-center pt-[15%] max-md:pt-0 border-0;
 }
 .home-content img {
-  @apply w-full rounded-[.8rem] max-md:h-full;
+  @apply w-full rounded-[.8rem] max-md:h-full max-2xl:h-full;
 }
 
 .bottom {
-  @apply text-white fixed bottom-0 bg-black  flex justify-between w-full h-8 pt-2 px-[2.3rem];
+  @apply text-white max-2xl:fixed max-2xl:bottom-0 bg-black  flex justify-between w-full h-8 pt-2 pb-0 px-[2.3rem];
 }
 .social-links {
   @apply flex justify-between gap-5 text-[#751a1a] text-[5rem];
+}
+
+.next .btn {
+  @apply text-white p-[2px] ml-[70%] mt-[50%] border-[.1px] border-orange-700 rounded-md hover:animate-pulse max-md:m-0;
 }
