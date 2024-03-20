@@ -1,9 +1,9 @@
 import "./components/Navbar";
 import "./App.css";
 import Navbar from "./components/Navbar";
-//import Home from "./components/Home";
+import Home from "./components/Home";
 import Footer from "./components/Footer";
-import Galary from "./components/Galary";
+//import Galary from "./components/Galary";
 //import slides from "./components/slides";
 /*let slides = [
   "https://i.ytimg.com/vi/6PIWzQnapnc/maxresdefault.jpg",
@@ -11,16 +11,16 @@ import Galary from "./components/Galary";
   "https://variety.com/wp-content/uploads/2021/11/Sing-2.jpg?w=1000",
 ];*/
 
-//<Home />
 //console.log(slides);
 //<Galary slides={slides} />;
 
+//<Galary />
 function App() {
   return (
     <div>
       <Navbar />
 
-      <Galary />
+      <Home />
 
       <Footer />
     </div>
