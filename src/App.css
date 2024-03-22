@@ -42,12 +42,14 @@ body {
 
 .home-content {
   @apply border-2 w-[30rem] mb-4 rounded-[.8rem] border-[#1f7904]
-   max-md:h-[15rem] max-md:w-[70%] max-md:ml-[20%] max-xl:w-full
+   max-md:h-[28rem] max-md:w-full max-md:mx-auto max-xl:w-full
    max-2xl:w-[23rem]
-   max-sm:w-full max-sm:m-0 max-sm:h-[65%];
+   max-sm:w-full max-sm:m-0 max-sm:h-[65%]
+   max-sm:pb-8;
 }
 .writing {
-  @apply text-white text-center pt-[15%] max-md:pt-0 border-0;
+  @apply text-white text-center pt-[15%] max-md:pt-0 max-md:h-52 border-0
+  max-sm:w-full max-sm:m-0 max-sm:h-[65%];
 }
 .home-content img {
   @apply w-full rounded-[.8rem] max-md:h-full max-2xl:h-full;

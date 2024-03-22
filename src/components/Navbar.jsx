@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 function Navbar() {
   return (
@@ -7,27 +8,29 @@ function Navbar() {
         <img src={logo} alt="gym logo" />;
       </div>
       <div className="sections-routes">
-        <a href="/" className="nav-link">
+        <Link to="/" className="nav-link">
           Home
-        </a>
-        <a href="/" className="nav-link">
+        </Link>
+        <Link to="/gallery" className="nav-link">
           Gallery
-        </a>
-        <a href="/" className="nav-link">
+        </Link>
+        <Link to="/trainers" className="nav-link">
           Trainers
-        </a>
-        <a href="/" className="nav-link">
+        </Link>
+        <Link to="/classes" className="nav-link">
           Classes
-        </a>
-        <a href="/" className="nav-link">
+        </Link>
+        <Link to="/prices" className="nav-link">
           Prices
-        </a>
-        <a href="/" className="nav-link">
+        </Link>
+        <Link to="/contact" className="nav-link">
           Quote
-        </a>
+        </Link>
       </div>
-      <div className="forms-route">
-        <button className="nav-btn">Member</button>
+      <div className="nav-btn">
+        <Link to="/form" className="nav-btn">
+          Member
+        </Link>
       </div>
     </div>
   );

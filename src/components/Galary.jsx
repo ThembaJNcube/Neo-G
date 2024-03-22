@@ -29,7 +29,7 @@ export default function Galary() {
           }}
         >
           {slides.map((s) => {
-            return <img src={s.src} alt="gym" />;
+            return <img src={s.src} alt="gym" key={s.id} />;
           })}
         </div>
         <div
@@ -63,6 +63,9 @@ export default function Galary() {
         <h1>{k.heading}</h1>
         <p>{k.message}</p>
       </div>
+      <h1 className="text-[#b91414] w-full mx-[40%] text-4xl">
+        Working on Responsiveness 👨‍🔧
+      </h1>
     </div>
   );
 }

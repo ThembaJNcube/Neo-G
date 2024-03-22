@@ -1,28 +1,30 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./components/Navbar";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-//import Galary from "./components/Galary";
+import Galary from "./components/Galary";
+import Prices from "./components/Prices";
 //import slides from "./components/slides";
-/*let slides = [
-  "https://i.ytimg.com/vi/6PIWzQnapnc/maxresdefault.jpg",
-  "https://www.denverpost.com/wp-content/uploads/2016/12/fe23sing.jpg?w=1024",
-  "https://variety.com/wp-content/uploads/2021/11/Sing-2.jpg?w=1000",
-];*/
-
-//console.log(slides);
 //<Galary slides={slides} />;
 
-//<Galary />
 function App() {
   return (
     <div>
-      <Navbar />
-
-      <Home />
-
-      <Footer />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Galary />} />
+          <Route path="/trainers" element={<Prices />} />
+          <Route path="/classes" element={<Prices />} />
+          <Route path="/prices" element={<Prices />} />
+          <Route path="/contact" element={<Prices />} />
+          <Route path="/form" element={<Prices />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
