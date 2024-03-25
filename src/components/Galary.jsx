@@ -20,7 +20,7 @@ export default function Galary() {
   //console.log(k);
 
   return (
-    <div>
+    <div className="section-container">
       <div className="overflow-hidden relative w-[50%] m-auto pt-11">
         <div
           className={`flex transition ease-out duration-40`}
