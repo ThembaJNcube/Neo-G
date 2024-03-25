@@ -17,10 +17,15 @@ body {
 }
 
 .navbar {
-  @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem] pt-7 bg-black;
+  @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem] pt-7 bg-black 
+  max-md:py-0 max-md:px-5 max-md:flex max-md:justify-between max-md:h-auto;
 }
 .nav-logo {
-  @apply w-[7rem] max-md:absolute max-md:top-0 max-md:left-[45%] max-md:w-32 max-md:h-8;
+  @apply w-[7rem] /*max-md:absolute max-md:top-0 max-md:w-32 max-md:h-8*/;
+}
+
+.menu {
+  @apply text-white hidden max-md:block /*max-md:absolute max-md:top-6 max-md:right-6*/;
 }
 .nav-link {
   @apply text-2xl font-semibold text-[#c42c2c] mx-[0.45rem] px-[0.8rem] py-[0.4rem] 
@@ -37,15 +42,15 @@ body {
 
 .section-container {
   @apply h-auto pt-[5.4rem] pb-[3rem] grid grid-cols-3 px-8 gap-3
-   max-md:block  max-md:text-center max-xl:grid-cols-2;
+   max-md:block max-md:pt-28 max-md:text-center max-xl:grid-cols-2 max-lg:h-[full];
 }
 
 .home-content {
   @apply border-2 w-[30rem] mb-4 rounded-[.8rem] border-[#1f7904]
-   max-md:h-[28rem] max-md:w-full max-md:mx-auto max-xl:w-full
+   max-md:h-[22rem] max-md:w-full max-md:mx-auto max-xl:w-full
    max-2xl:w-[23rem]
-   max-sm:w-full max-sm:m-0 max-sm:h-[65%]
-   max-sm:pb-8;
+   max-sm:w-full max-sm:h-[65%]
+   max-sm:mb-8;
 }
 .writing {
   @apply text-white text-center pt-[15%] max-md:pt-0 max-md:h-52 border-0

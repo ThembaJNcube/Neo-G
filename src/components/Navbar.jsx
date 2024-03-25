@@ -4,10 +4,11 @@ import logo from "../images/logo.png";
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="nav-logo">
+      <Link to="/" className="nav-logo">
         <img src={logo} alt="gym logo" />;
-      </div>
-      <div className="sections-routes">
+      </Link>
+
+      <nav className="sections-routes">
         <Link to="/" className="nav-link">
           Home
         </Link>
@@ -26,12 +27,25 @@ function Navbar() {
         <Link to="/contact" className="nav-link">
           Quote
         </Link>
-      </div>
+      </nav>
       <div className="nav-btn">
         <Link to="/form" className="nav-btn">
           Member
         </Link>
       </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        fill="currentColor"
+        className="bi bi-list menu"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+        />
+      </svg>
     </div>
   );
 }
