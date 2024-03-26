@@ -2,8 +2,8 @@ import React from "react";
 
 function Prices() {
   return (
-    <div className="h-[100%] py-[12%] px-[3%] section-container">
-      <h1 className="text-white text-9xl "> Page under construction 👨‍🔧👨‍🎨</h1>
+    <div className="h-[100vh] pt-[7rem] px-[3%] text-white text-9xl max-lg:text-3xl">
+      <h1> Page under construction 👨‍🔧👨‍🎨</h1>
     </div>
   );
 }
