@@ -95,6 +95,7 @@ form input {
 
 .gallery-container {
   @apply w-full m-auto h-[100vh] p-32 grid grid-cols-3 gap-1
+  max-lg:px-14 max-lg:gap-3
   max-md:gap-8 max-md:px-6 max-md:grid-cols-2
   max-sm:grid-cols-1;
 }
@@ -109,6 +110,6 @@ form input {
 
 .gallery-text {
   @apply text-white font-medium col-span-3 text-5xl text-center
-  max-md:col-span-2 max-md:text-lg
+  max-md:col-span-2 max-md:text-lg max-2xl:pb-10
   max-sm:col-span-1;
 }
