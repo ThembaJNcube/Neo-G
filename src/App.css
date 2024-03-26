@@ -92,3 +92,23 @@ form label {
 form input {
   @apply text-[#300c0c] text-center mb-2;
 }
+
+.gallery-container {
+  @apply w-full m-auto h-[100vh] p-32 grid grid-cols-3 gap-1
+  max-md:gap-8 max-md:px-6 max-md:grid-cols-2
+  max-sm:grid-cols-1;
+}
+
+.gallery-box {
+  @apply text-white border-2 border-[#830b0b] rounded-[.5rem];
+}
+
+.gallery-box img {
+  @apply h-full rounded-[.5rem];
+}
+
+.gallery-text {
+  @apply text-white font-medium col-span-3 text-5xl text-center
+  max-md:col-span-2 max-md:text-lg
+  max-sm:col-span-1;
+}
