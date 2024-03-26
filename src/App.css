@@ -78,7 +78,7 @@ body {
 }
 
 .form-container {
-  @apply text-white text-2xl w-full m-auto h-[100vh] pt-32;
+  @apply text-white text-2xl w-full m-auto h-[100vh] pt-32 max-md:text-xl;
 }
 
 form {
