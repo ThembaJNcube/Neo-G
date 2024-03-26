@@ -76,3 +76,19 @@ body {
 .next .btn {
   @apply text-white p-[2px] ml-[70%] mt-[50%] border-[.1px] border-orange-700 rounded-md hover:animate-pulse max-md:m-0;
 }
+
+.form-container {
+  @apply text-white text-2xl w-full m-auto h-[100vh] pt-32;
+}
+
+form {
+  @apply w-[30rem] bg-[#0a073b] mx-auto px-20 h-auto rounded-[.6rem] text-center border-cyan-700;
+}
+
+form label {
+  @apply block;
+}
+
+form input {
+  @apply text-[#300c0c] text-center mb-2;
+}

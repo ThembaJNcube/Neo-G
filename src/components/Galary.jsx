@@ -20,7 +20,7 @@ export default function Galary() {
   //console.log(k);
 
   return (
-    <div className="section-container">
+    <div className="form-container">
       <div className="overflow-hidden relative w-[50%] m-auto pt-11">
         <div
           className={`flex transition ease-out duration-40`}
@@ -59,13 +59,10 @@ export default function Galary() {
           })}
         </div>
       </div>
-      <div className="text-white w-[50%] mx-[43%] py-10 my-6">
+      <div className="text-white w-[50%] mx-[43%] py-4 my-2">
         <h1>{k.heading}</h1>
         <p>{k.message}</p>
       </div>
-      <h1 className="text-[#b91414] w-full mx-[40%] text-4xl">
-        Working on Responsiveness 👨‍🔧
-      </h1>
     </div>
   );
 }
