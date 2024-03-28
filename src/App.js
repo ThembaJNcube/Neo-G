@@ -4,6 +4,7 @@ import "./App.css";
 import "./components/Navbar";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Classes from "./components/Classes";
 import Footer from "./components/Footer";
 //import Galary from "./components/Galary";
 import Prices from "./components/Prices";
@@ -20,8 +21,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/trainers" element={<Prices />} />
-          <Route path="/classes" element={<Prices />} />
+          <Route path="/trainers" element={<Classes />} />
+          <Route path="/classes" element={<Classes />} />
           <Route path="/prices" element={<Prices />} />
           <Route path="/contact" element={<Prices />} />
           <Route path="/form" element={<Membership />} />

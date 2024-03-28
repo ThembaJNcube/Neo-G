@@ -52,7 +52,7 @@ function Membership() {
   return (
     <div className="form-container">
       <form>
-        <h1 className="text-4xl bold py-4">Sign up/Sign in</h1>
+        <h1 className="text-4xl font-extrabold py-4 text-[#ca0c0c]">{isNew? "Register":"Login" }</h1>
 
         <label for="member">Choose your Membership:</label>
         <select
@@ -110,6 +110,12 @@ function Membership() {
           id="password"
           required
         />
+        <a
+          href="#"
+          className={`${isNew ? "hidden" : ""} font-semibold text-indigo-600 hover:text-indigo-500`}
+        >
+          Forgot password?
+        </a>
         <label className={isNew ? "" : "hidden"}>Confirm Password</label>
         <input
           className={isNew ? "" : "hidden"}

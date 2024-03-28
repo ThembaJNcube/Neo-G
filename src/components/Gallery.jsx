@@ -7,7 +7,7 @@ export default function Gallery() {
       <div className="gallery-box hover:animate-pulse">
         <img src={album[0]} alt="gym 1" />
       </div>
-      <div className="gallery-box hover:animate-bounce">
+      <div className="gallery-box hover:animate-pulse">
         <img src={album[1]} alt="gym 2" />
       </div>
       <div className="gallery-box hover:animate-pulse">
@@ -19,7 +19,7 @@ export default function Gallery() {
       <div className="gallery-box hover:animate-pulse">
         <img src={album[4]} alt="gym 5" />
       </div>
-      <div className="gallery-box hover:animate-bounce">
+      <div className="gallery-box hover:animate-pulse">
         <img src={album[5]} alt="gym 6" />
       </div>
       <div className="gallery-text">

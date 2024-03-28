@@ -90,22 +90,22 @@ form label {
 }
 
 form input {
-  @apply text-[#300c0c] text-center mb-2;
+  @apply text-[#300c0c] text-center mb-2 rounded-[0.3rem] hover:border-2 hover:border-[#be1414];
 }
 
 .gallery-container {
-  @apply w-full m-auto h-[100vh] p-32 grid grid-cols-3 gap-1
+  @apply w-full m-auto h-[100vh] p-32 grid grid-cols-3 gap-0
   max-lg:px-14 max-lg:gap-3
   max-md:gap-8 max-md:px-6 max-md:grid-cols-2
   max-sm:grid-cols-1;
 }
 
 .gallery-box {
-  @apply text-white border-2 border-[#830b0b] rounded-[.5rem];
+  @apply text-white max-lg:border-2 max-lg:border-[#830b0b] rounded-[.5rem];
 }
 
 .gallery-box img {
-  @apply h-full rounded-[.5rem];
+  @apply h-full max-lg:rounded-[.5rem];
 }
 
 .gallery-text {
