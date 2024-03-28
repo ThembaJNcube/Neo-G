@@ -113,3 +113,13 @@ form input {
   max-md:col-span-2 max-md:text-lg max-2xl:pb-10
   max-sm:col-span-1;
 }
+
+.price-container {
+  @apply text-white w-full m-auto h-[100vh] p-32 flex items-center justify-between 
+  max-lg:flex-wrap max-lg:px-24 max-md:px-20 max-md:py-0 max-md:h-auto
+  max-md:grid max-md:grid-cols-1 max-md:gap-4  max-md:pt-[6rem] max-md:pb-[2.2rem];
+}
+
+.price-box {
+  @apply text-center p-[1.2rem] border-[3px] rounded-[.8rem] hover:border-[#830b0b];
+}
