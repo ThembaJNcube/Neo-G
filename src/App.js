@@ -24,7 +24,7 @@ function App() {
           <Route path="/trainers" element={<Classes />} />
           <Route path="/classes" element={<Classes />} />
           <Route path="/prices" element={<Prices />} />
-          <Route path="/contact" element={<Prices />} />
+          <Route path="/contact" element={<Classes />} />
           <Route path="/form" element={<Membership />} />
         </Routes>
         <Footer />
