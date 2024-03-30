@@ -123,3 +123,8 @@ form input {
 .price-box {
   @apply text-center p-[1.2rem] border-[3px] rounded-[.8rem] hover:border-[#830b0b];
 }
+
+
+.contact-container{
+  @apply text-white w-full m-auto h-[100vh] p-32 
+}

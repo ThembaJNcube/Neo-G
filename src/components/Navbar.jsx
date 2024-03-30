@@ -35,7 +35,7 @@ function Navbar() {
           Prices
         </Link>
         <Link to="/contact" className="nav-link" onClick={clearAppear}>
-          Quote
+          Contact
         </Link>
       </nav>
 

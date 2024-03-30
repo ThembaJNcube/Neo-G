@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Prices from "./components/Prices";
 import Membership from "./components/Membership";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 //import slides from "./components/slides";
 //<Galary slides={slides} />;
 
@@ -24,7 +25,7 @@ function App() {
           <Route path="/trainers" element={<Classes />} />
           <Route path="/classes" element={<Classes />} />
           <Route path="/prices" element={<Prices />} />
-          <Route path="/contact" element={<Classes />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/form" element={<Membership />} />
         </Routes>
         <Footer />
