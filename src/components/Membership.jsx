@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Membership() {
   const [isNew, setIsnew] = useState(false);
@@ -110,12 +111,12 @@ function Membership() {
           id="password"
           required
         />
-        <a
-          href="#"
+        <Link
+          to="/form"
           className={`${isNew ? "hidden" : ""} font-semibold text-indigo-600 hover:text-indigo-500`}
         >
           Forgot password?
-        </a>
+        </Link>
         <label className={isNew ? "" : "hidden"}>Confirm Password</label>
         <input
           className={isNew ? "" : "hidden"}
