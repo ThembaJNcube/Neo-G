@@ -13,15 +13,13 @@ export default function Gallery() {
       <div className="gallery-box hover:animate-pulse">
         <img src={album[2]} alt="gym 3" />
       </div>
-      <div className="gallery-box hover:animate-bounce">
+      <div className="gallery-box hover:pulse">
         <img src={album[3]} alt="gym 4" />
       </div>
       <div className="gallery-box hover:animate-pulse">
         <img src={album[4]} alt="gym 5" />
       </div>
-      <div className="gallery-box hover:animate-pulse">
-        <img src={album[5]} alt="gym 6" />
-      </div>
+
       <div className="gallery-text">
         <h1>
           This is the{" "}

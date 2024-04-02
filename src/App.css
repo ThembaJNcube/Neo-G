@@ -116,7 +116,7 @@ form input {
 
 .price-container {
   @apply text-white w-full m-auto h-[100vh] p-32 flex items-center justify-between 
-  max-lg:flex-wrap max-lg:px-24 max-md:px-20 max-md:py-0 max-md:h-auto
+  max-lg:flex-wrap max-lg:px-24 max-md:px-12 max-md:py-0 max-md:h-auto
   max-md:grid max-md:grid-cols-1 max-md:gap-4  max-md:pt-[6rem] max-md:pb-[2.2rem];
 }
 
@@ -124,7 +124,20 @@ form input {
   @apply text-center p-[1.2rem] border-[3px] rounded-[.8rem] hover:border-[#830b0b];
 }
 
+.contact-container {
+  @apply text-white w-full m-auto h-[100vh] p-32 grid grid-cols-3 gap-2 
+  max-lg:grid-cols-2 max-lg:px-12
+  max-md:grid-cols-1  max-md:pt-[6rem] max-md:pb-[2.2rem] max-md:h-auto max-md:gap-[2px];
+}
 
-.contact-container{
-  @apply text-white w-full m-auto h-[100vh] p-32 
+.contact-box {
+  @apply p-[.8rem] border-[1px] text-center;
+}
+
+.contact-box svg {
+  @apply text-[#852828];
+}
+
+.contact-box .socials {
+  @apply flex justify-center gap-8 max-md:gap-4;
 }
