@@ -88,7 +88,7 @@ function Contact() {
       <div className="contact-box col-span-3 border-[#0000] max-md:col-span-1 max-lg:col-span-2">
         <h1 className="text-2xl">Geo Location:</h1>
         <a
-          href="https://www.google.com/maps/search/tembisa+mall/@-25.9921368,28.1627091,13z/data=!3m1!4b1?entry=ttu"
+          href="https://www.google.com/maps/place/Mall+of+Thembisa/@-25.9921251,28.162709,13z/data=!4m10!1m2!2m1!1stembisa+mall!3m6!1s0x1e956fe0dedb5607:0x9f19f839bb7c1a2!8m2!3d-25.9592264!4d28.2031257!15sCgx0ZW1iaXNhIG1hbGxaDiIMdGVtYmlzYSBtYWxskgEPc2hvcHBpbmdfY2VudGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5MYXpsVVZHUjNFQUXgAQA!16s%2Fg%2F11frrz_5gg?entry=ttu"
           target="blank
         "
         >

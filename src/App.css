@@ -35,8 +35,8 @@ body {
 }
 
 .nav-link {
-  @apply text-2xl font-semibold text-[#c42c2c] ml-[2.5rem]
-  rounded-[0.8rem] bg-transparent hover:bg-[#0ee431] hover:bg-opacity-30 transition-all duration-300 
+  @apply text-2xl font-semibold text-[#c42c2c] ml-[2.5rem] p-1
+  rounded-[0.3rem] bg-transparent hover:bg-[#0ee431] hover:bg-opacity-30 transition-all duration-300 
   max-lg:text-base max-lg:mx-1 max-lg:px-1 max-md:block;
 }
 .nav-btn {
