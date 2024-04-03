@@ -141,3 +141,25 @@ form input {
 .contact-box .socials {
   @apply flex justify-center gap-8 max-md:gap-4;
 }
+
+.Trainers-container {
+  @apply py-[7.3rem];
+}
+
+.side-pane {
+  @apply text-white flex justify-center text-center gap-4 h-[2.5rem] w-full;
+}
+
+.coach {
+  @apply h-full hover:animate-pulse font-bold text-[1.5rem] px-2 rounded-sm ;
+}
+
+.Trainers-container .dispay-box {
+  @apply col-span-10 w-[60%] mx-auto mb-4;
+}
+.dispay-box img {
+  @apply w-[100%];
+}
+.dispay-box .info {
+  @apply text-white text-2xl border-[1px] border-[#bd0c0c] animate-pulse;
+}

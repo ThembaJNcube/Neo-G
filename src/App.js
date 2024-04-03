@@ -11,6 +11,7 @@ import Prices from "./components/Prices";
 import Membership from "./components/Membership";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
+import Trainers from "./components/Trainers";
 //import slides from "./components/slides";
 //<Galary slides={slides} />;
 
@@ -22,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/trainers" element={<Classes />} />
+          <Route path="/trainers" element={<Trainers />} />
           <Route path="/classes" element={<Classes />} />
           <Route path="/prices" element={<Prices />} />
           <Route path="/contact" element={<Contact />} />
