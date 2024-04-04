@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <div className="bottom">
-      <div className="date">
-        &copy; Themba Zorrorra - {new Date().getFullYear()}
+      <div className="date text-xl">
+        &copy; <span className="text-[#990909] font-bold">Neo-Gym</span> - {new Date().getFullYear()}
       </div>
       <div className="social-links">
         {" "}

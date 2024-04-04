@@ -147,19 +147,20 @@ form input {
 }
 
 .side-pane {
-  @apply text-white flex justify-center text-center gap-4 h-[2.5rem] w-full;
+  @apply text-white grid grid-cols-4 px-4 justify-center text-center gap-4 h-[2.5rem] w-full
+  max-lg:grid-cols-2 max-md:gap-1;
 }
 
 .coach {
-  @apply h-full hover:animate-pulse font-bold text-[1.5rem] px-2 rounded-sm ;
+  @apply h-full hover:animate-pulse font-bold text-[1.5rem] px-2 rounded-sm max-md:text-[1rem];
 }
 
 .Trainers-container .dispay-box {
-  @apply col-span-10 w-[60%] mx-auto mb-4;
+  @apply col-span-10 w-[60%] mx-auto mb-4 max-md:w-[80%];
 }
 .dispay-box img {
   @apply w-[100%];
 }
 .dispay-box .info {
-  @apply text-white text-2xl border-[1px] border-[#bd0c0c] animate-pulse;
+  @apply text-white text-2xl border-[1px] border-[#bd0c0c] animate-pulse max-md:text-lg;
 }
