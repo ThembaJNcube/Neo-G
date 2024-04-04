@@ -67,10 +67,10 @@ body {
 }
 
 .bottom {
-  @apply text-white max-2xl:fixed max-2xl:bottom-0 bg-black  flex justify-between w-full h-8 pt-2 pb-0 px-[2.3rem];
+  @apply text-white max-2xl:fixed max-2xl:bottom-0 bg-black  flex justify-between w-full h-8 pt-2 pb-0 px-[2.3rem] max-md:px-2;
 }
 .social-links {
-  @apply flex justify-between gap-5 text-[#751a1a] text-[5rem];
+  @apply flex justify-between gap-5 text-[#751a1a] text-[5rem] max-md:gap-1;
 }
 
 .next .btn {
@@ -82,7 +82,7 @@ body {
 }
 
 form {
-  @apply w-[30rem] bg-[#0a073b] mx-auto px-20 h-auto rounded-[.6rem] text-center max-md:w-[26rem] max-md:px-16;
+  @apply w-[30rem] bg-[#0a073b] mx-auto px-16 h-auto rounded-[.6rem] text-center max-md:w-[22rem] max-md:px-16;
 }
 
 form label {
@@ -143,7 +143,7 @@ form input {
 }
 
 .Trainers-container {
-  @apply py-[7.3rem];
+  @apply pt-[7.3rem];
 }
 
 .side-pane {

@@ -3,15 +3,15 @@ import React from "react";
 function Footer() {
   return (
     <div className="bottom">
-      <div className="date text-xl">
+      <div className="date text-lg">
         &copy; <span className="text-[#990909] font-bold">Neo-Gym</span> - {new Date().getFullYear()}
       </div>
       <div className="social-links">
         {" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="25"
-          height="25"
+          width="20"
+          height="20"
           fill="currentColor"
           className="bi bi-facebook hover:animate-bounce"
           viewBox="0 0 16 16"
@@ -20,8 +20,8 @@ function Footer() {
         </svg>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="25"
-          height="25"
+          width="20"
+          height="20"
           fill="currentColor"
           className="bi bi-twitter-x hover:animate-bounce"
           viewBox="0 0 16 16"
@@ -30,8 +30,8 @@ function Footer() {
         </svg>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="25"
-          height="25"
+          width="20"
+          height="20"
           fill="currentColor"
           className="bi bi-instagram hover:animate-bounce"
           viewBox="0 0 16 16"
