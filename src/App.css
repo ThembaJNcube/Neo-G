@@ -131,11 +131,11 @@ form input {
 }
 
 .contact-box {
-  @apply p-[.8rem] border-[1px] text-center;
+  @apply p-[.8rem] border-[1px] text-center hover:border-[#852828] hover:border-[3px];
 }
 
 .contact-box svg {
-  @apply text-[#852828];
+  @apply text-[#852828] hover:animate-pulse;
 }
 
 .contact-box .socials {
@@ -163,4 +163,26 @@ form input {
 }
 .dispay-box .info {
   @apply text-white text-2xl border-[1px] border-[#bd0c0c] animate-pulse max-md:text-lg;
+}
+
+.classes-container {
+  /*background-image:url(https://i.ytimg.com/vi/A8i2sstXev8/maxresdefault.jpg);*/
+  @apply h-[100vh] pt-[7rem] pb-[2rem] mx-auto text-white grid grid-cols-3 gap-[2.5rem] items-center max-md:grid-cols-1 max-md:h-auto max-lg:grid-cols-2;
+}
+.class-box {
+  @apply m-auto relative bg-white border-white hover:border-[#b40808]  border-[3px] w-[75%] overflow-hidden flex;
+}
+
+.class-image {
+  @apply w-[100%];
+}
+
+.class-info {
+  @apply absolute bottom-0 left-0 items-center text-center text-3xl h-[100%] w-[100%] flex flex-col pt-2 translate-y-[100%] ease-in duration-500
+  bg-gradient-to-r from-purple-500 to-[#920909]
+  max-lg:text-xl;
+}
+
+.class-box:hover .class-info {
+  @apply translate-y-0;
 }
