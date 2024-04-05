@@ -78,11 +78,11 @@ body {
 }
 
 .form-container {
-  @apply text-white text-2xl w-full m-auto h-[100vh] pt-32 max-md:text-xl;
+  @apply text-white text-2xl w-full m-auto h-[100vh] pt-32 max-md:text-xl max-md:py-20;
 }
 
 form {
-  @apply w-[30rem] bg-[#0a073b] mx-auto px-16 h-auto rounded-[.6rem] text-center max-md:w-[22rem] max-md:px-16;
+  @apply w-[30rem] bg-[#0a073b] mx-auto px-14 h-auto rounded-[.6rem] text-center max-md:w-[22rem];
 }
 
 form label {
