@@ -13,7 +13,7 @@ export default function Trainers() {
             {coach[index].message}
             {"              ......."}
 
-            <span className="text-[#b91010] font-bold text-3xl max-md:text-2xl">
+            <span className="text-[#b91010] font-bold text-2xl max-md:text-xl">
               {coach[index].name}
             </span>
           </h1>

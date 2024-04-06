@@ -96,8 +96,8 @@ form input {
 .gallery-container {
   @apply w-full m-auto h-[100vh] p-32 grid grid-cols-3 gap-0
   max-lg:px-14 max-lg:gap-3
-  max-md:gap-8 max-md:px-6 max-md:grid-cols-2
-  max-sm:grid-cols-1;
+  max-md:gap-2 max-md:px-6 max-md:grid-cols-2
+  max-sm:grid-cols-1; 
 }
 
 .gallery-box {
@@ -143,7 +143,7 @@ form input {
 }
 
 .Trainers-container {
-  @apply pt-[7.3rem];
+  @apply pt-[6.8rem];
 }
 
 .side-pane {
@@ -156,18 +156,18 @@ form input {
 }
 
 .Trainers-container .dispay-box {
-  @apply col-span-10 w-[60%] mx-auto mb-4 max-md:w-[80%];
+  @apply col-span-10 w-[60%] mx-auto mb-[5px] max-md:w-[70%];
 }
 .dispay-box img {
   @apply w-[100%];
 }
 .dispay-box .info {
-  @apply text-white text-2xl border-[1px] border-[#bd0c0c] animate-pulse max-md:text-lg;
+  @apply text-white text-xl border-[1px] border-[#bd0c0c] animate-pulse max-md:text-lg;
 }
 
 .classes-container {
   /*background-image:url(https://i.ytimg.com/vi/A8i2sstXev8/maxresdefault.jpg);*/
-  @apply h-[100vh] pt-[7rem] pb-[2rem] mx-auto text-white grid grid-cols-3 gap-[2.5rem] items-center max-md:grid-cols-1 max-md:h-auto max-lg:grid-cols-2;
+  @apply h-[100vh] pt-[7rem] pb-[2rem] mx-auto text-white grid grid-cols-3 gap-[2.5rem] items-center max-md:grid-cols-1 max-md:h-auto max-lg:grid-cols-2 max-md:gap-3;
 }
 .class-box {
   @apply m-auto relative bg-white border-white hover:border-[#b40808]  border-[3px] w-[75%] overflow-hidden flex;
@@ -179,7 +179,7 @@ form input {
 
 .class-info {
   @apply absolute bottom-0 left-0 items-center text-center text-3xl h-[100%] w-[100%] flex flex-col pt-2 translate-y-[100%] ease-in duration-500
-  bg-gradient-to-r from-purple-500 to-[#920909]
+  bg-gradient-to-r from-purple-500 to-[#920909] opacity-80
   max-lg:text-xl;
 }
 
