@@ -7,7 +7,12 @@ export default function Trainers() {
   return (
     <div className="Trainers-container">
       <div className="dispay-box">
-        <img src={coach[index].src} alt="see" id={coach[index].id} />
+        <img
+          src={coach[index].src}
+          alt={coach[index].alt}
+          id={coach[index].id}
+          loading="lazy"
+        />
         <div className="info ">
           <h1>
             {coach[index].message}

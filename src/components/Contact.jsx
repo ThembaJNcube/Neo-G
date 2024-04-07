@@ -92,7 +92,12 @@ function Contact() {
           target="blank
         "
         >
-          <img src={geo} alt="Mall of Tembisa" className="w-full" />
+          <img
+            src={geo}
+            alt="Mall of Tembisa"
+            className="w-full"
+            loading="lazy"
+          />
         </a>
       </div>
     </div>
