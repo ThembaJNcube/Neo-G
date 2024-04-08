@@ -1,7 +1,7 @@
 import React from "react";
-import H1 from "../images/Home/H1.jpg";
-import H2 from "../images/Home/H2.jpg";
-import H3 from "../images/Home/H3.jpg";
+import H1 from "../images/Home/H1.webp";
+import H2 from "../images/Home/H2.webp";
+import H3 from "../images/Home/H3.webp";
 
 function Home() {
   return (

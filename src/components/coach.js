@@ -1,7 +1,7 @@
-import jon from "../images/Coaching/Co1.jpg";
-import kate from "../images/Coaching/Co2.jpg";
-import fred from "../images/Coaching/Co3.jpg";
-import dave from "../images/Coaching/Co4.jpg";
+import jon from "../images/Coaching/Co1.webp";
+import kate from "../images/Coaching/Co2.webp";
+import fred from "../images/Coaching/Co3.webp";
+import dave from "../images/Coaching/Co4.webp";
 const coaches = [
   {
     id: 1,
