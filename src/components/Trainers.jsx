@@ -11,7 +11,6 @@ export default function Trainers() {
           src={coach[index].src}
           alt={coach[index].alt}
           id={coach[index].id}
-          loading="lazy"
         />
         <div className="info ">
           <h1>
